@@ -113,3 +113,11 @@ Your support allows me to continue my work, **fight against Internet censorship 
 `USDT (TRC20) or TRON : TDuBY7FpRkaMU1rhQjQa6sqpNdKhmM8Nx3`
 
 `USDT (ERC20) : 0xFAFaf5D1e2e6a11F04e318430ff01031B63A58e1`
+
+Uninstall
+
+rm -r /var/www/namizun/
+rm /etc/systemd/system/namizun.service
+rm /usr/local/bin/namizun
+systemctl daemon-reload
+#
