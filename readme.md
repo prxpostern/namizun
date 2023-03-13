@@ -116,8 +116,10 @@ Your support allows me to continue my work, **fight against Internet censorship 
 
 Uninstall
 
+```bash
 rm -r /var/www/namizun/
 rm /etc/systemd/system/namizun.service
 rm /usr/local/bin/namizun
 systemctl daemon-reload
 #
+```
